@@ -114,3 +114,8 @@ body {
   color: #fff;
   cursor: pointer;
 }
+
+.dark-btt:hover {
+  background-color: #221188;
+  transition: 0.3s ease-in;
+}
