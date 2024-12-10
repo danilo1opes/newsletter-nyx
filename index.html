@@ -3,36 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Newsletter - Nyx</title>
+    <title>Segunda Vision - Nyx</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="favicon.svg" />
   </head>
   <body>
-    <div class="container">
-      <img class="photo" src="img/Ellipse 11.png" alt="Imagem do Canal" />
+    <header class="header-text">
       <h1>
-        Receba um resumo antecipado do conteúdo<br />que será abordado no
-        próximo vídeo.
+        <span class="uper"
+          >Segunda<br />Vision<span class="lower">nyx.</span></span
+        >
       </h1>
-      <p>Junte-se à nossa comunidade de <strong>0 pessoas.</strong></p>
-      <form
-        data-netlify="true"
-        name="pizzaOrder"
-        method="post"
-        onSubmit="{handleSubmit}"
-      >
-        <div class="imagem-relativa">
-          <img src="img/Vector.svg" alt="" />
-          <input
-            type="email"
-            name="email"
-            placeholder="Seu email principal..."
-            class="input-email"
-            required
-          />
+    </header>
+
+    <main>
+      <section class="card">
+        <div class="img-container">
+          <img src="/img/telescopio.png" alt="Ilustração de telescópio" />
         </div>
-      </form>
-      <button class="dark-btt">Inscreva-se (Grátis)</button>
-    </div>
+        <div class="content">
+          <h2 class="font-1-xs">
+            Junte-se<br />
+            à nossa comunidade.
+          </h2>
+          <p class="font-2">
+            Receba um resumo antecipado do conteúdo <br />
+            que sera abordado no próximo video.
+          </p>
+          <form action="#" class="email-form">
+            <input type="email" placeholder="Digite seu email..." required />
+            <button type="submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                fill="white"
+                class="bi bi-arrow-right-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Fique por Dentro!</p>
+    </footer>
   </body>
 </html>
