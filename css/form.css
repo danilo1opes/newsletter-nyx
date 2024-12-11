@@ -16,6 +16,13 @@ main {
   gap: 2rem;
   min-height: 800px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.star {
+  position: absolute;
+  left: 70px;
+  top: 50px;
 }
 
 .img-container {

@@ -5,4 +5,10 @@
 @import '/css/global.css';
 @import '/css/header.css';
 @import '/css/form.css';
-@import '/utilities/typography.css';
+@import '/css/utilities/typography.css';
+@import '/css/middle.css';
+@import '/css/card-section/reading.css';
+
+/* FOOTER */
+
+@import '/css/footers/footer-1.css';

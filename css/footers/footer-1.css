@@ -1,0 +1,9 @@
+.footer-primary {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-primary p {
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}

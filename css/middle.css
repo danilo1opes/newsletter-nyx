@@ -1,0 +1,28 @@
+.middle {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  position: relative;
+}
+
+.middle p::before {
+  content: '';
+  display: block;
+  background: #fff;
+  width: 625px;
+  height: 2px;
+  position: absolute;
+  top: 20px;
+  left: 2px;
+}
+
+.middle p::after {
+  content: '';
+  display: block;
+  background: #fff;
+  width: 625px;
+  height: 2px;
+  position: absolute;
+  top: 20px;
+  right: 2px;
+}
