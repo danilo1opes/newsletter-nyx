@@ -1,0 +1,63 @@
+.container {
+  margin-top: 8rem;
+}
+
+.meta {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.division-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content {
+  text-align: left;
+}
+
+.content h1 {
+  margin-bottom: 8px;
+  font-size: 2.5rem;
+}
+
+.icones-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.7rem;
+  position: relative;
+}
+
+.icones-links::before {
+  content: '';
+  display: block;
+  width: 950px;
+  height: 2px;
+  background: #232323;
+  position: absolute;
+  top: 47px;
+}
+
+.icones-links::after {
+  content: '';
+  display: block;
+  width: 950px;
+  height: 2px;
+  background: #232323;
+  position: absolute;
+  bottom: 47px;
+}
+
+.bynyx {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icones {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}

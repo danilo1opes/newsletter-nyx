@@ -1,0 +1,30 @@
+.limit {
+  max-width: 950px;
+  margin-top: 3rem;
+}
+
+.limit-text {
+  margin-top: 2rem;
+  position: relative;
+  max-width: 950px;
+}
+
+.image img {
+  width: 950px;
+  margin-top: 2rem;
+}
+
+.bottom {
+  margin-bottom: 15px;
+}
+
+.detail::before {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 41px;
+  background: #fff;
+  position: absolute;
+  left: -10px;
+  top: 2px;
+}
