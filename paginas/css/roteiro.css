@@ -28,3 +28,51 @@
   left: -10px;
   top: 2px;
 }
+
+@media (max-width: 480px) {
+  .detail::before {
+    display: none;
+  }
+  /* Imagem */
+  .image img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1.5rem;
+  }
+  /* Texto no limite */
+  .limit-text {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .detail::before {
+    display: none;
+  }
+  /* Imagem */
+  .image img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1.5rem;
+  }
+  /* Texto no limite */
+  .limit-text {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .detail::before {
+    display: none;
+  }
+  /* Imagem */
+  .image img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1.5rem;
+  }
+  /* Texto no limite */
+  .limit-text {
+    margin-top: 1rem;
+  }
+}

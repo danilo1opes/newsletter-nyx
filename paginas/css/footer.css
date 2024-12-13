@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+footer img {
+  width: 50px;
+}
+
+footer img[alt='Twitter'] {
+  margin: 0 20px;
+}
+
+@media (max-width: 480px) {
+  footer img {
+    width: 30px;
+  }
+  footer img[alt='Twitter'] {
+    margin: 0;
+  }
+  .lower {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  footer img {
+    width: 30px;
+  }
+  footer img[alt='Twitter'] {
+    gap: 10px;
+  }
+  .lower {
+    font-size: 1rem;
+  }
+}

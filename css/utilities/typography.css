@@ -21,3 +21,57 @@
 .font-3-i {
   font: 400 italic 1.1rem/1.35 'Source Serif Pro', sans-serif;
 }
+
+@media (max-width: 480px) {
+  /* Ajustes no tamanho da fonte */
+  .font-3 {
+    font-size: 1rem;
+  }
+
+  .font-1-xs {
+    font-size: 1rem;
+  }
+
+  .font-2 {
+    font-size: 0.9rem;
+  }
+
+  .font-3-b {
+    font-size: 1.2rem;
+  }
+
+  .font-2-b {
+    font-size: 1.1rem;
+  }
+
+  .bottom {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Ajustes no tamanho da fonte */
+  .font-3 {
+    font-size: 1rem;
+  }
+
+  .font-1-xs {
+    font-size: 1rem;
+  }
+
+  .font-2 {
+    font-size: 1.2rem;
+  }
+
+  .font-3-b {
+    font-size: 1.2rem;
+  }
+
+  .font-2-b {
+    font-size: 1.1rem;
+  }
+
+  .bottom {
+    margin-bottom: 10px;
+  }
+}
