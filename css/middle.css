@@ -26,3 +26,66 @@
   top: 20px;
   right: 2px;
 }
+
+@media (max-width: 480px) {
+  .middle {
+    margin-top: 2.3rem;
+  }
+  .middle p {
+    font-size: 1.5rem;
+  }
+  .middle p::before {
+    width: 135px;
+  }
+  .middle p::after {
+    width: 135px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .middle {
+    margin-top: 2.3rem;
+  }
+  .middle p {
+    font-size: 2rem;
+  }
+  .middle p::before {
+    width: 173px;
+    top: 25px;
+  }
+  .middle p::after {
+    width: 173px;
+    top: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .middle {
+    margin-top: 2.3rem;
+  }
+  .middle p {
+    font-size: 3rem;
+  }
+  .middle p::before {
+    width: 315px;
+    top: 35px;
+  }
+  .middle p::after {
+    width: 315px;
+    top: 35px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .middle p {
+    font-size: 3rem;
+  }
+  .middle p::after {
+    width: 450px;
+    top: 35px;
+  }
+  .middle p::before {
+    width: 450px;
+    top: 35px;
+  }
+}

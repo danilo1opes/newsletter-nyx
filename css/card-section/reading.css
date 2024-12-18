@@ -112,3 +112,27 @@
     rotate: 360deg;
   }
 }
+
+@media (max-width: 480px) {
+  .reading-content {
+    margin-top: 4rem;
+  }
+  .card-reading {
+    width: 300px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .reading-content {
+    margin-top: 4rem;
+  }
+  .card-reading {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .card-reading {
+    width: 350px;
+  }
+}

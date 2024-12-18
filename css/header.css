@@ -16,3 +16,23 @@
   color: #fff;
   font-size: 1.5rem;
 }
+
+@media (max-width: 480px) {
+  .header-text {
+    margin-bottom: 1.2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .header-text {
+    margin-bottom: 1.2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-text {
+    margin-bottom: 1rem;
+  }
+}
