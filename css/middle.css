@@ -51,11 +51,11 @@
     font-size: 2rem;
   }
   .middle p::before {
-    width: 173px;
+    width: 125px;
     top: 25px;
   }
   .middle p::after {
-    width: 173px;
+    width: 125px;
     top: 25px;
   }
 }
