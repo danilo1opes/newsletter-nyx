@@ -60,7 +60,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1113px) {
   .middle {
     margin-top: 2.3rem;
   }
@@ -68,11 +68,28 @@
     font-size: 3rem;
   }
   .middle p::before {
-    width: 315px;
+    width: 255px;
     top: 35px;
   }
   .middle p::after {
-    width: 315px;
+    width: 255px;
+    top: 35px;
+  }
+}
+
+@media (min-width: 1113px) and (max-width: 1199px) {
+  .middle {
+    margin-top: 8rem;
+  }
+  .middle p {
+    font-size: 3rem;
+  }
+  .middle p::before {
+    width: 390px;
+    top: 35px;
+  }
+  .middle p::after {
+    width: 390px;
     top: 35px;
   }
 }
