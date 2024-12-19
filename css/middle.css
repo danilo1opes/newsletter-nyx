@@ -81,11 +81,11 @@
     font-size: 3rem;
   }
   .middle p::after {
-    width: 450px;
+    width: 530px;
     top: 35px;
   }
   .middle p::before {
-    width: 450px;
+    width: 530px;
     top: 35px;
   }
 }
