@@ -35,10 +35,10 @@
     font-size: 1.5rem;
   }
   .middle p::before {
-    width: 135px;
+    width: 100px;
   }
   .middle p::after {
-    width: 135px;
+    width: 100px;
   }
 }
 
