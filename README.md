@@ -1,6 +1,6 @@
 # Resumo de Vídeos para YouTube - Projeto Nyx
 
-Este projeto tem como objetivo criar uma plataforma para apresentar resumos dos vídeos que faço para o meu canal do YouTube. O site é voltado para a disseminação de conteúdo sobre temas como criptomoedas, finanças, política e outras questões sociais. O foco é oferecer uma maneira simples e acessível de obter informações valiosas de forma rápida.
+Este projeto tem como objetivo criar uma plataforma para apresentar resumos dos vídeos que faço para o meu canal do YouTube. O site é voltado para a disseminação de conteúdo sobre temas como finanças, política e outras questões sociais. O foco é oferecer uma maneira simples e acessível de obter informações valiosas de forma rápida.
 
 ## Funcionalidades
 
